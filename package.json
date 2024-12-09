@@ -1,0 +1,29 @@
+{
+  "name": "optimalmd-backend",
+  "version": "1.0.0",
+  "author": "Octopi Digital",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development && nodemon index.js",
+    "prod": "set NODE_ENV=production && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "authorizenet": "^1.0.9",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "moment": "^2.30.1",
+    "mongoose": "^8.8.1",
+    "mongoose-sequence": "^6.0.1",
+    "node-cron": "^3.0.3"
+  }
+}
